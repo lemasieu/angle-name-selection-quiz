@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Angle Name Selection Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Angle Name Selection Quiz</h1>
+    <div class="main-flex">
+      <div class="left-panel">
+        <div id="stats">Correct: 0, Total: 0, Accuracy: 0%</div>
+        <div id="question">Click on the correct angle: \\(\\widehat{ABC}\\)</div>
+        <div id="feedback"></div>
+        <button id="newQuestionBtn" disabled>New Question</button>
+      </div>
+      <div class="right-panel">
+        <div id="sketch-holder"></div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
